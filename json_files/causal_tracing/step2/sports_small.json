@@ -1,0 +1,542 @@
+[
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/-86gl1hp1Aw_000105.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. sailing\nB. playing darts\nC. striking bowling\nD. shot football\nE. playing badminton\nF. skateboarding\nG. playing volleyball\nH. golf driving\nI. playing table tennis\nJ. playing tennis\nK. mouse clicking\nL. playing squash\nM. parrot talking\nN. basketball bounce\nO. swimming\nP. skiing\nQ. slot machine\nR. playing hockey\nS. rope skipping\nT. bouncing on trampoline\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "M",
+            "label_name": "parrot talking",
+            "correct_pred": "M",
+            "corrupt_pred": "I",
+            "correct_correct_word_prob": 0.9820791482925415,
+            "correct_corrupt_word_prob": 0.008496647700667381,
+            "corrupt_correct_word_prob": 0.0031716153025627136,
+            "corrupt_corrupt_word_prob": 0.4421907067298889,
+            "choices": {
+                "A": "sailing",
+                "B": "playing darts",
+                "C": "striking bowling",
+                "D": "shot football",
+                "E": "playing badminton",
+                "F": "skateboarding",
+                "G": "playing volleyball",
+                "H": "golf driving",
+                "I": "playing table tennis",
+                "J": "playing tennis",
+                "K": "mouse clicking",
+                "L": "playing squash",
+                "M": "parrot talking",
+                "N": "basketball bounce",
+                "O": "swimming",
+                "P": "skiing",
+                "Q": "slot machine",
+                "R": "playing hockey",
+                "S": "rope skipping",
+                "T": "bouncing on trampoline"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/-KqXcm-I2zY_000162.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. mouse clicking\nB. slot machine\nC. playing volleyball\nD. basketball bounce\nE. playing table tennis\nF. playing squash\nG. playing tennis\nH. playing badminton\nI. playing hockey\nJ. sailing\nK. parrot talking\nL. skiing\nM. rope skipping\nN. skateboarding\nO. swimming\nP. golf driving\nQ. striking bowling\nR. playing darts\nS. shot football\nT. bouncing on trampoline\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "G",
+            "label_name": "playing tennis",
+            "correct_pred": "G",
+            "corrupt_pred": "E",
+            "correct_correct_word_prob": 0.9918672442436218,
+            "correct_corrupt_word_prob": 0.002038245787844062,
+            "corrupt_correct_word_prob": 0.056477103382349014,
+            "corrupt_corrupt_word_prob": 0.2531128227710724,
+            "choices": {
+                "A": "mouse clicking",
+                "B": "slot machine",
+                "C": "playing volleyball",
+                "D": "basketball bounce",
+                "E": "playing table tennis",
+                "F": "playing squash",
+                "G": "playing tennis",
+                "H": "playing badminton",
+                "I": "playing hockey",
+                "J": "sailing",
+                "K": "parrot talking",
+                "L": "skiing",
+                "M": "rope skipping",
+                "N": "skateboarding",
+                "O": "swimming",
+                "P": "golf driving",
+                "Q": "striking bowling",
+                "R": "playing darts",
+                "S": "shot football",
+                "T": "bouncing on trampoline"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/-OEJFMpQ-ko_000159.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. playing volleyball\nB. slot machine\nC. striking bowling\nD. skateboarding\nE. sailing\nF. rope skipping\nG. playing badminton\nH. playing hockey\nI. playing squash\nJ. shot football\nK. swimming\nL. bouncing on trampoline\nM. playing tennis\nN. skiing\nO. basketball bounce\nP. playing table tennis\nQ. mouse clicking\nR. playing darts\nS. golf driving\nT. parrot talking\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "R",
+            "label_name": "playing darts",
+            "correct_pred": "R",
+            "corrupt_pred": "O",
+            "correct_correct_word_prob": 0.9868285655975342,
+            "correct_corrupt_word_prob": 0.0005127311451360583,
+            "corrupt_correct_word_prob": 0.16151461005210876,
+            "corrupt_corrupt_word_prob": 0.20738886296749115,
+            "choices": {
+                "A": "playing volleyball",
+                "B": "slot machine",
+                "C": "striking bowling",
+                "D": "skateboarding",
+                "E": "sailing",
+                "F": "rope skipping",
+                "G": "playing badminton",
+                "H": "playing hockey",
+                "I": "playing squash",
+                "J": "shot football",
+                "K": "swimming",
+                "L": "bouncing on trampoline",
+                "M": "playing tennis",
+                "N": "skiing",
+                "O": "basketball bounce",
+                "P": "playing table tennis",
+                "Q": "mouse clicking",
+                "R": "playing darts",
+                "S": "golf driving",
+                "T": "parrot talking"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/-P2cxvGQUvk_000235.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. shot football\nB. parrot talking\nC. slot machine\nD. playing hockey\nE. basketball bounce\nF. mouse clicking\nG. playing tennis\nH. playing volleyball\nI. playing darts\nJ. sailing\nK. striking bowling\nL. playing badminton\nM. skateboarding\nN. playing table tennis\nO. rope skipping\nP. skiing\nQ. swimming\nR. playing squash\nS. golf driving\nT. bouncing on trampoline\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "A",
+            "label_name": "shot football",
+            "correct_pred": "A",
+            "corrupt_pred": "N",
+            "correct_correct_word_prob": 0.826019823551178,
+            "correct_corrupt_word_prob": 0.010398056358098984,
+            "corrupt_correct_word_prob": 0.04336126148700714,
+            "corrupt_corrupt_word_prob": 0.24952679872512817,
+            "choices": {
+                "A": "shot football",
+                "B": "parrot talking",
+                "C": "slot machine",
+                "D": "playing hockey",
+                "E": "basketball bounce",
+                "F": "mouse clicking",
+                "G": "playing tennis",
+                "H": "playing volleyball",
+                "I": "playing darts",
+                "J": "sailing",
+                "K": "striking bowling",
+                "L": "playing badminton",
+                "M": "skateboarding",
+                "N": "playing table tennis",
+                "O": "rope skipping",
+                "P": "skiing",
+                "Q": "swimming",
+                "R": "playing squash",
+                "S": "golf driving",
+                "T": "bouncing on trampoline"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/-RO4IF8Qv3c_000369.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. parrot talking\nB. playing darts\nC. playing hockey\nD. sailing\nE. skateboarding\nF. striking bowling\nG. playing table tennis\nH. golf driving\nI. shot football\nJ. rope skipping\nK. playing badminton\nL. playing tennis\nM. playing squash\nN. swimming\nO. mouse clicking\nP. slot machine\nQ. skiing\nR. bouncing on trampoline\nS. playing volleyball\nT. basketball bounce\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "B",
+            "label_name": "playing darts",
+            "correct_pred": "B",
+            "corrupt_pred": "G",
+            "correct_correct_word_prob": 0.9994170665740967,
+            "correct_corrupt_word_prob": 3.3195952710229903e-05,
+            "corrupt_correct_word_prob": 0.1445324420928955,
+            "corrupt_corrupt_word_prob": 0.6085042953491211,
+            "choices": {
+                "A": "parrot talking",
+                "B": "playing darts",
+                "C": "playing hockey",
+                "D": "sailing",
+                "E": "skateboarding",
+                "F": "striking bowling",
+                "G": "playing table tennis",
+                "H": "golf driving",
+                "I": "shot football",
+                "J": "rope skipping",
+                "K": "playing badminton",
+                "L": "playing tennis",
+                "M": "playing squash",
+                "N": "swimming",
+                "O": "mouse clicking",
+                "P": "slot machine",
+                "Q": "skiing",
+                "R": "bouncing on trampoline",
+                "S": "playing volleyball",
+                "T": "basketball bounce"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/-VevyIayGM0_000000.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. shot football\nB. swimming\nC. basketball bounce\nD. golf driving\nE. skiing\nF. slot machine\nG. skateboarding\nH. rope skipping\nI. playing table tennis\nJ. playing hockey\nK. striking bowling\nL. sailing\nM. mouse clicking\nN. playing squash\nO. bouncing on trampoline\nP. playing volleyball\nQ. parrot talking\nR. playing darts\nS. playing badminton\nT. playing tennis\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "P",
+            "label_name": "playing volleyball",
+            "correct_pred": "P",
+            "corrupt_pred": "S",
+            "correct_correct_word_prob": 0.9617769122123718,
+            "correct_corrupt_word_prob": 0.00014317070599645376,
+            "corrupt_correct_word_prob": 0.00717631820589304,
+            "corrupt_corrupt_word_prob": 0.2529740035533905,
+            "choices": {
+                "A": "shot football",
+                "B": "swimming",
+                "C": "basketball bounce",
+                "D": "golf driving",
+                "E": "skiing",
+                "F": "slot machine",
+                "G": "skateboarding",
+                "H": "rope skipping",
+                "I": "playing table tennis",
+                "J": "playing hockey",
+                "K": "striking bowling",
+                "L": "sailing",
+                "M": "mouse clicking",
+                "N": "playing squash",
+                "O": "bouncing on trampoline",
+                "P": "playing volleyball",
+                "Q": "parrot talking",
+                "R": "playing darts",
+                "S": "playing badminton",
+                "T": "playing tennis"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/-miI_C3At4Y_000104.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. bouncing on trampoline\nB. sailing\nC. skateboarding\nD. playing tennis\nE. golf driving\nF. playing darts\nG. parrot talking\nH. striking bowling\nI. mouse clicking\nJ. playing table tennis\nK. slot machine\nL. rope skipping\nM. skiing\nN. playing hockey\nO. basketball bounce\nP. shot football\nQ. playing squash\nR. swimming\nS. playing badminton\nT. playing volleyball\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "S",
+            "label_name": "playing badminton",
+            "correct_pred": "S",
+            "corrupt_pred": "H",
+            "correct_correct_word_prob": 0.9876627326011658,
+            "correct_corrupt_word_prob": 0.00042542838491499424,
+            "corrupt_correct_word_prob": 0.005869251675903797,
+            "corrupt_corrupt_word_prob": 0.7687205076217651,
+            "choices": {
+                "A": "bouncing on trampoline",
+                "B": "sailing",
+                "C": "skateboarding",
+                "D": "playing tennis",
+                "E": "golf driving",
+                "F": "playing darts",
+                "G": "parrot talking",
+                "H": "striking bowling",
+                "I": "mouse clicking",
+                "J": "playing table tennis",
+                "K": "slot machine",
+                "L": "rope skipping",
+                "M": "skiing",
+                "N": "playing hockey",
+                "O": "basketball bounce",
+                "P": "shot football",
+                "Q": "playing squash",
+                "R": "swimming",
+                "S": "playing badminton",
+                "T": "playing volleyball"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/-nj0HaLz2N4_000023.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. playing tennis\nB. golf driving\nC. swimming\nD. striking bowling\nE. skiing\nF. basketball bounce\nG. playing badminton\nH. shot football\nI. playing volleyball\nJ. playing darts\nK. slot machine\nL. playing table tennis\nM. sailing\nN. bouncing on trampoline\nO. mouse clicking\nP. parrot talking\nQ. rope skipping\nR. playing squash\nS. playing hockey\nT. skateboarding\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "S",
+            "label_name": "playing hockey",
+            "correct_pred": "S",
+            "corrupt_pred": "D",
+            "correct_correct_word_prob": 0.9981714487075806,
+            "correct_corrupt_word_prob": 0.00033484926098026335,
+            "corrupt_correct_word_prob": 0.06095391511917114,
+            "corrupt_corrupt_word_prob": 0.45039185881614685,
+            "choices": {
+                "A": "playing tennis",
+                "B": "golf driving",
+                "C": "swimming",
+                "D": "striking bowling",
+                "E": "skiing",
+                "F": "basketball bounce",
+                "G": "playing badminton",
+                "H": "shot football",
+                "I": "playing volleyball",
+                "J": "playing darts",
+                "K": "slot machine",
+                "L": "playing table tennis",
+                "M": "sailing",
+                "N": "bouncing on trampoline",
+                "O": "mouse clicking",
+                "P": "parrot talking",
+                "Q": "rope skipping",
+                "R": "playing squash",
+                "S": "playing hockey",
+                "T": "skateboarding"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/05uiW8xh5QU_000001.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. playing table tennis\nB. playing darts\nC. playing squash\nD. skiing\nE. striking bowling\nF. bouncing on trampoline\nG. swimming\nH. playing hockey\nI. playing volleyball\nJ. basketball bounce\nK. skateboarding\nL. slot machine\nM. mouse clicking\nN. parrot talking\nO. sailing\nP. rope skipping\nQ. playing badminton\nR. golf driving\nS. playing tennis\nT. shot football\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "H",
+            "label_name": "playing hockey",
+            "correct_pred": "H",
+            "corrupt_pred": "A",
+            "correct_correct_word_prob": 0.996107280254364,
+            "correct_corrupt_word_prob": 0.0012415427481755614,
+            "corrupt_correct_word_prob": 0.008404516614973545,
+            "corrupt_corrupt_word_prob": 0.6676534414291382,
+            "choices": {
+                "A": "playing table tennis",
+                "B": "playing darts",
+                "C": "playing squash",
+                "D": "skiing",
+                "E": "striking bowling",
+                "F": "bouncing on trampoline",
+                "G": "swimming",
+                "H": "playing hockey",
+                "I": "playing volleyball",
+                "J": "basketball bounce",
+                "K": "skateboarding",
+                "L": "slot machine",
+                "M": "mouse clicking",
+                "N": "parrot talking",
+                "O": "sailing",
+                "P": "rope skipping",
+                "Q": "playing badminton",
+                "R": "golf driving",
+                "S": "playing tennis",
+                "T": "shot football"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": "vggsound_with_mask/video/0D8KognM4uY_000282.mp4"
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. playing squash\nB. swimming\nC. playing tennis\nD. skiing\nE. playing volleyball\nF. bouncing on trampoline\nG. sailing\nH. golf driving\nI. parrot talking\nJ. slot machine\nK. rope skipping\nL. mouse clicking\nM. playing hockey\nN. playing darts\nO. striking bowling\nP. shot football\nQ. playing badminton\nR. playing table tennis\nS. basketball bounce\nT. skateboarding\n\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "M",
+            "label_name": "playing hockey",
+            "correct_pred": "M",
+            "corrupt_pred": "E",
+            "correct_correct_word_prob": 0.9973755478858948,
+            "correct_corrupt_word_prob": 0.0010305858450010419,
+            "corrupt_correct_word_prob": 0.07177793234586716,
+            "corrupt_corrupt_word_prob": 0.1340988278388977,
+            "choices": {
+                "A": "playing squash",
+                "B": "swimming",
+                "C": "playing tennis",
+                "D": "skiing",
+                "E": "playing volleyball",
+                "F": "bouncing on trampoline",
+                "G": "sailing",
+                "H": "golf driving",
+                "I": "parrot talking",
+                "J": "slot machine",
+                "K": "rope skipping",
+                "L": "mouse clicking",
+                "M": "playing hockey",
+                "N": "playing darts",
+                "O": "striking bowling",
+                "P": "shot football",
+                "Q": "playing badminton",
+                "R": "playing table tennis",
+                "S": "basketball bounce",
+                "T": "skateboarding"
+            }
+        }
+    ]
+]

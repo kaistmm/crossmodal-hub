@@ -1,0 +1,722 @@
+[
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/013_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/025_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/036_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/048_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/060_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/072_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/084_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/095_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/107_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/119_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/131_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/142_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/154_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/166_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/178_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/190_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/201_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/213_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/--U7joUcTCo_000000/225_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. people eating\nB. people booing\nC. police radio chatter\nD. people finger snapping\nE. smoke detector beeping\nF. people burping\nG. people battle cry\nH. people gargling\nI. civil defense siren\nJ. people nose blowing\nK. people coughing\nL. people farting\nM. people whispering\nN. francolin calling\nO. people sobbing\nP. people humming\nQ. people slapping\nR. people hiccup\nS. people shuffling\nT. people whistling\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "K",
+            "label_name": "people coughing",
+            "av": "K",
+            "v": "R",
+            "a": "K",
+            "choices": {
+                "A": "people eating",
+                "B": "people booing",
+                "C": "police radio chatter",
+                "D": "people finger snapping",
+                "E": "smoke detector beeping",
+                "F": "people burping",
+                "G": "people battle cry",
+                "H": "people gargling",
+                "I": "civil defense siren",
+                "J": "people nose blowing",
+                "K": "people coughing",
+                "L": "people farting",
+                "M": "people whispering",
+                "N": "francolin calling",
+                "O": "people sobbing",
+                "P": "people humming",
+                "Q": "people slapping",
+                "R": "people hiccup",
+                "S": "people shuffling",
+                "T": "people whistling"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/014_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/027_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/040_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/053_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/067_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/080_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/093_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/106_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/119_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/132_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/145_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/158_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/171_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/184_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/198_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/211_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/224_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/237_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-1BtY81-D54_000130/250_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. police radio chatter\nB. people slapping\nC. people eating\nD. people farting\nE. people burping\nF. people coughing\nG. people nose blowing\nH. people hiccup\nI. people sobbing\nJ. people gargling\nK. people finger snapping\nL. people shuffling\nM. people humming\nN. people whispering\nO. civil defense siren\nP. people whistling\nQ. people booing\nR. francolin calling\nS. smoke detector beeping\nT. people battle cry\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "T",
+            "label_name": "people battle cry",
+            "av": "M",
+            "v": "O",
+            "a": "M",
+            "choices": {
+                "A": "police radio chatter",
+                "B": "people slapping",
+                "C": "people eating",
+                "D": "people farting",
+                "E": "people burping",
+                "F": "people coughing",
+                "G": "people nose blowing",
+                "H": "people hiccup",
+                "I": "people sobbing",
+                "J": "people gargling",
+                "K": "people finger snapping",
+                "L": "people shuffling",
+                "M": "people humming",
+                "N": "people whispering",
+                "O": "civil defense siren",
+                "P": "people whistling",
+                "Q": "people booing",
+                "R": "francolin calling",
+                "S": "smoke detector beeping",
+                "T": "people battle cry"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/014_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/027_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/040_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/053_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/067_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/080_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/093_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/106_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/119_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/132_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/145_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/158_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/171_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/184_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/198_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/211_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/224_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/237_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-6u76q0L5o8_000067/250_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. people nose blowing\nB. civil defense siren\nC. people gargling\nD. people sobbing\nE. people slapping\nF. people burping\nG. people coughing\nH. francolin calling\nI. people hiccup\nJ. people booing\nK. police radio chatter\nL. people finger snapping\nM. people eating\nN. people whispering\nO. smoke detector beeping\nP. people battle cry\nQ. people farting\nR. people shuffling\nS. people humming\nT. people whistling\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "B",
+            "label_name": "civil defense siren",
+            "av": "B",
+            "v": "D",
+            "a": "B",
+            "choices": {
+                "A": "people nose blowing",
+                "B": "civil defense siren",
+                "C": "people gargling",
+                "D": "people sobbing",
+                "E": "people slapping",
+                "F": "people burping",
+                "G": "people coughing",
+                "H": "francolin calling",
+                "I": "people hiccup",
+                "J": "people booing",
+                "K": "police radio chatter",
+                "L": "people finger snapping",
+                "M": "people eating",
+                "N": "people whispering",
+                "O": "smoke detector beeping",
+                "P": "people battle cry",
+                "Q": "people farting",
+                "R": "people shuffling",
+                "S": "people humming",
+                "T": "people whistling"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/014_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/027_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/040_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/053_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/067_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/080_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/093_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/106_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/119_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/132_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/145_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/158_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/171_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/184_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/198_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/211_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/224_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/237_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-AeiYb4vDK0_000340/250_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. people hiccup\nB. people finger snapping\nC. people booing\nD. people sobbing\nE. smoke detector beeping\nF. police radio chatter\nG. civil defense siren\nH. people humming\nI. people whispering\nJ. people shuffling\nK. people eating\nL. people gargling\nM. people nose blowing\nN. francolin calling\nO. people farting\nP. people burping\nQ. people slapping\nR. people coughing\nS. people battle cry\nT. people whistling\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "K",
+            "label_name": "people eating",
+            "av": "K",
+            "v": "R",
+            "a": "K",
+            "choices": {
+                "A": "people hiccup",
+                "B": "people finger snapping",
+                "C": "people booing",
+                "D": "people sobbing",
+                "E": "smoke detector beeping",
+                "F": "police radio chatter",
+                "G": "civil defense siren",
+                "H": "people humming",
+                "I": "people whispering",
+                "J": "people shuffling",
+                "K": "people eating",
+                "L": "people gargling",
+                "M": "people nose blowing",
+                "N": "francolin calling",
+                "O": "people farting",
+                "P": "people burping",
+                "Q": "people slapping",
+                "R": "people coughing",
+                "S": "people battle cry",
+                "T": "people whistling"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/014_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/027_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/040_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/053_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/067_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/080_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/093_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/106_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/119_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/132_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/145_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/158_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/171_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/184_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/198_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/211_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/224_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/237_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Igq1W20Gi8_000000/250_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. people booing\nB. people whistling\nC. smoke detector beeping\nD. people farting\nE. people eating\nF. people coughing\nG. people whispering\nH. civil defense siren\nI. people battle cry\nJ. people shuffling\nK. people finger snapping\nL. people hiccup\nM. people sobbing\nN. people burping\nO. people humming\nP. police radio chatter\nQ. francolin calling\nR. people nose blowing\nS. people gargling\nT. people slapping\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "B",
+            "label_name": "people whistling",
+            "av": "B",
+            "v": "N",
+            "a": "B",
+            "choices": {
+                "A": "people booing",
+                "B": "people whistling",
+                "C": "smoke detector beeping",
+                "D": "people farting",
+                "E": "people eating",
+                "F": "people coughing",
+                "G": "people whispering",
+                "H": "civil defense siren",
+                "I": "people battle cry",
+                "J": "people shuffling",
+                "K": "people finger snapping",
+                "L": "people hiccup",
+                "M": "people sobbing",
+                "N": "people burping",
+                "O": "people humming",
+                "P": "police radio chatter",
+                "Q": "francolin calling",
+                "R": "people nose blowing",
+                "S": "people gargling",
+                "T": "people slapping"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/014_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/027_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/040_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/053_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/067_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/080_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/093_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/106_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/119_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/132_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/145_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/158_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/171_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/184_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/198_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/211_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/224_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/237_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-Ii-kc3ufho_000106/250_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. people gargling\nB. people humming\nC. people whispering\nD. people battle cry\nE. people slapping\nF. francolin calling\nG. people finger snapping\nH. civil defense siren\nI. people burping\nJ. police radio chatter\nK. people eating\nL. people coughing\nM. people nose blowing\nN. smoke detector beeping\nO. people whistling\nP. people farting\nQ. people shuffling\nR. people sobbing\nS. people booing\nT. people hiccup\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "J",
+            "label_name": "police radio chatter",
+            "av": "J",
+            "v": "H",
+            "a": "J",
+            "choices": {
+                "A": "people gargling",
+                "B": "people humming",
+                "C": "people whispering",
+                "D": "people battle cry",
+                "E": "people slapping",
+                "F": "francolin calling",
+                "G": "people finger snapping",
+                "H": "civil defense siren",
+                "I": "people burping",
+                "J": "police radio chatter",
+                "K": "people eating",
+                "L": "people coughing",
+                "M": "people nose blowing",
+                "N": "smoke detector beeping",
+                "O": "people whistling",
+                "P": "people farting",
+                "Q": "people shuffling",
+                "R": "people sobbing",
+                "S": "people booing",
+                "T": "people hiccup"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/014_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/027_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/040_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/053_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/065_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/078_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/091_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/104_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/117_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/130_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/143_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/156_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/169_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/182_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/194_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/207_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/220_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/233_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-gAzofSmRiY_000021/246_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. people coughing\nB. people whispering\nC. people hiccup\nD. people slapping\nE. people battle cry\nF. people booing\nG. people sobbing\nH. people burping\nI. civil defense siren\nJ. people finger snapping\nK. police radio chatter\nL. people humming\nM. people whistling\nN. people gargling\nO. smoke detector beeping\nP. people farting\nQ. people nose blowing\nR. people eating\nS. people shuffling\nT. francolin calling\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "R",
+            "label_name": "people eating",
+            "av": "R",
+            "v": "H",
+            "a": "R",
+            "choices": {
+                "A": "people coughing",
+                "B": "people whispering",
+                "C": "people hiccup",
+                "D": "people slapping",
+                "E": "people battle cry",
+                "F": "people booing",
+                "G": "people sobbing",
+                "H": "people burping",
+                "I": "civil defense siren",
+                "J": "people finger snapping",
+                "K": "police radio chatter",
+                "L": "people humming",
+                "M": "people whistling",
+                "N": "people gargling",
+                "O": "smoke detector beeping",
+                "P": "people farting",
+                "Q": "people nose blowing",
+                "R": "people eating",
+                "S": "people shuffling",
+                "T": "francolin calling"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/014_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/027_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/040_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/053_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/067_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/080_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/093_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/106_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/119_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/132_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/145_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/158_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/171_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/184_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/198_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/211_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/224_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/237_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/-rqhMzJRYoc_000030/250_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. people farting\nB. people finger snapping\nC. people humming\nD. people gargling\nE. people battle cry\nF. people burping\nG. police radio chatter\nH. civil defense siren\nI. people sobbing\nJ. people shuffling\nK. people eating\nL. smoke detector beeping\nM. people slapping\nN. people nose blowing\nO. people booing\nP. people coughing\nQ. people whispering\nR. francolin calling\nS. people hiccup\nT. people whistling\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "S",
+            "label_name": "people hiccup",
+            "av": "F",
+            "v": "I",
+            "a": "F",
+            "choices": {
+                "A": "people farting",
+                "B": "people finger snapping",
+                "C": "people humming",
+                "D": "people gargling",
+                "E": "people battle cry",
+                "F": "people burping",
+                "G": "police radio chatter",
+                "H": "civil defense siren",
+                "I": "people sobbing",
+                "J": "people shuffling",
+                "K": "people eating",
+                "L": "smoke detector beeping",
+                "M": "people slapping",
+                "N": "people nose blowing",
+                "O": "people booing",
+                "P": "people coughing",
+                "Q": "people whispering",
+                "R": "francolin calling",
+                "S": "people hiccup",
+                "T": "people whistling"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/014_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/027_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/040_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/053_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/067_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/080_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/093_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/106_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/119_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/132_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/145_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/158_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/171_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/184_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/198_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/211_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/224_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/237_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/09NfjFeq2cs_000078/250_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. people farting\nB. people slapping\nC. people battle cry\nD. people whistling\nE. people finger snapping\nF. people eating\nG. people shuffling\nH. people whispering\nI. people gargling\nJ. people booing\nK. people sobbing\nL. people burping\nM. smoke detector beeping\nN. people coughing\nO. people nose blowing\nP. civil defense siren\nQ. people humming\nR. police radio chatter\nS. francolin calling\nT. people hiccup\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "S",
+            "label_name": "francolin calling",
+            "av": "S",
+            "v": "L",
+            "a": "S",
+            "choices": {
+                "A": "people farting",
+                "B": "people slapping",
+                "C": "people battle cry",
+                "D": "people whistling",
+                "E": "people finger snapping",
+                "F": "people eating",
+                "G": "people shuffling",
+                "H": "people whispering",
+                "I": "people gargling",
+                "J": "people booing",
+                "K": "people sobbing",
+                "L": "people burping",
+                "M": "smoke detector beeping",
+                "N": "people coughing",
+                "O": "people nose blowing",
+                "P": "civil defense siren",
+                "Q": "people humming",
+                "R": "police radio chatter",
+                "S": "francolin calling",
+                "T": "people hiccup"
+            }
+        }
+    ],
+    [
+        {
+            "role": "system",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "You are a helpful assistant."
+                }
+            ]
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "video",
+                    "video": [
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/001_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/014_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/027_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/040_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/053_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/067_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/080_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/093_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/106_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/119_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/132_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/145_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/158_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/171_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/184_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/198_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/211_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/224_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/237_raw.jpg",
+                        "vggsound_with_mask/sam2_mask_black/0DOFzYwOoPg_000133/250_raw.jpg"
+                    ]
+                },
+                {
+                    "type": "text",
+                    "text": "Classify the sounding object into one of the categories below:\n\nA. people battle cry\nB. smoke detector beeping\nC. civil defense siren\nD. people whistling\nE. people farting\nF. police radio chatter\nG. people slapping\nH. people burping\nI. people finger snapping\nJ. people eating\nK. francolin calling\nL. people coughing\nM. people shuffling\nN. people sobbing\nO. people nose blowing\nP. people humming\nQ. people hiccup\nR. people whispering\nS. people gargling\nT. people booing\nRespond ONLY with a single label letter (A–T)."
+                }
+            ],
+            "label": "O",
+            "label_name": "people nose blowing",
+            "av": "L",
+            "v": "H",
+            "a": "L",
+            "choices": {
+                "A": "people battle cry",
+                "B": "smoke detector beeping",
+                "C": "civil defense siren",
+                "D": "people whistling",
+                "E": "people farting",
+                "F": "police radio chatter",
+                "G": "people slapping",
+                "H": "people burping",
+                "I": "people finger snapping",
+                "J": "people eating",
+                "K": "francolin calling",
+                "L": "people coughing",
+                "M": "people shuffling",
+                "N": "people sobbing",
+                "O": "people nose blowing",
+                "P": "people humming",
+                "Q": "people hiccup",
+                "R": "people whispering",
+                "S": "people gargling",
+                "T": "people booing"
+            }
+        }
+    ]
+]

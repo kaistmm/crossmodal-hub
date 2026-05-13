@@ -127,4 +127,3 @@ CUDA_VISIBLE_DEVICES=3 python causal_tracing_modality_sink.py \
 - `--replace_mode` — choose from `all`, `sink`, `object`, `random_sink_num`, `uni_modal_sink`, `cross_modal_sink`.
   > ⚠️ For `object` mode, preprocessing with [OpenFLAM](https://github.com/adobe-research/openflam) and [SAM2](https://github.com/facebookresearch/sam2) is required beforehand.
 - `--k_divide` — required for sink-based modes; choose from `2`, `3`, or `4`.
-# crossmodal-hub

@@ -53,12 +53,12 @@ In this stage, we obtain the model's output probabilities *before* patching, and
 #### 🎵 Audio-dominant case
 
 ```bash
-CUDA_VISIBLE_DEVICES=2 python infer_with_prob.py \
+python infer_with_prob.py \
     --json_path json_files/causal_tracing/step1/people_case_2_small.json \
     --save_path exp/causal_tracing/step1/people \
     --modality av --k_divide 2
 
-CUDA_VISIBLE_DEVICES=2 python infer_with_prob.py \
+python infer_with_prob.py \
     --json_path json_files/causal_tracing/step1/people_case_2_small.json \
     --save_path exp/causal_tracing/step1/people \
     --modality v --k_divide 2
@@ -67,12 +67,12 @@ CUDA_VISIBLE_DEVICES=2 python infer_with_prob.py \
 #### 🎬 Video-dominant case
 
 ```bash
-CUDA_VISIBLE_DEVICES=3 python infer_with_prob.py \
+python infer_with_prob.py \
     --json_path json_files/causal_tracing/step1/sports_case_1_small.json \
     --save_path exp/causal_tracing/step1/sports \
     --modality av --k_divide 2
 
-CUDA_VISIBLE_DEVICES=3 python infer_with_prob.py \
+python infer_with_prob.py \
     --json_path json_files/causal_tracing/step1/sports_case_1_small.json \
     --save_path exp/causal_tracing/step1/sports \
     --modality a --k_divide 2
@@ -101,7 +101,7 @@ In this stage, we patch a chosen subset of tokens — one of **All / Object / Si
 #### 🎵 Audio-dominant case
 
 ```bash
-CUDA_VISIBLE_DEVICES=2 python causal_tracing_modality_sink_image.py \
+python causal_tracing_modality_sink_image.py \
     --json_path json_files/causal_tracing/step2/people_small.json \
     --save_path exp/causal_tracing/step2/people \
     --mode people \
@@ -113,7 +113,7 @@ CUDA_VISIBLE_DEVICES=2 python causal_tracing_modality_sink_image.py \
 #### 🎬 Video-dominant case
 
 ```bash
-CUDA_VISIBLE_DEVICES=3 python causal_tracing_modality_sink.py \
+python causal_tracing_modality_sink.py \
     --json_path json_files/causal_tracing/step2/sports_small.json \
     --save_path exp/causal_tracing/step2/sports \
     --mode sports \

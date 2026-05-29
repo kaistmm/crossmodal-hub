@@ -17,14 +17,6 @@ We explore the **internal mechanisms of cross-modal interaction** in Audio-Visua
 <p align="center">
   <img src="asset/causal_tracing.png" alt="Causal Tracing Overview" width="820"/>
 </p>
-
----
-
-## 📌 Updates
-
-- ☑ **Causal tracing** code released
-- ☐ **ASD** (hallucination mitigation) code — *coming soon*
-
 ---
 
 ## 🛠️ 1. Environment
@@ -127,3 +119,16 @@ python causal_tracing_modality_sink.py \
 - `--replace_mode` — choose from `all`, `sink`, `object`, `random_sink_num`, `uni_modal_sink`, `cross_modal_sink`.
   > ⚠️ For `object` mode, preprocessing with [OpenFLAM](https://github.com/adobe-research/openflam) and [SAM2](https://github.com/facebookresearch/sam2) is required beforehand.
 - `--k_divide` — required for sink-based modes; choose from `2`, `3`, or `4`.
+
+---
+
+## 📝 Citation
+```bibtex
+@inproceedings{jung2026probing,
+  title={Probing Cross-modal Information Hubs in Audio-Visual LLMs},
+  author={Jung, Jihoo and Jung, Chaeyoung and Kim, Ji-Hoon and Chung, Joon Son},
+  booktitle={ICML},
+  year={2026}
+}
+
+```

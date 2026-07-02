@@ -125,12 +125,11 @@ python causal_tracing_modality_sink.py \
 ## 📝 Citation
 ```bibtex
 @inproceedings{
-jung2026probing,
-title={Probing Cross-modal Information Hubs in Audio-Visual {LLM}s},
-author={Jihoo Jung and Chaeyoung Jung and Ji-Hoon Kim and Joon Son Chung},
-booktitle={Forty-third International Conference on Machine Learning},
-year={2026},
-
+  jung2026probing,
+  title={Probing Cross-modal Information Hubs in Audio-Visual {LLM}s},
+  author={Jihoo Jung and Chaeyoung Jung and Ji-Hoon Kim and Joon Son Chung},
+  booktitle={Forty-third International Conference on Machine Learning},
+  year={2026},
 }
 
 ```

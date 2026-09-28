@@ -2,9 +2,11 @@
 
 # Probing Cross-modal Information Hubs in Audio-Visual LLMs
 
-[![Paper](https://img.shields.io/badge/arXiv-2605.10815-b31b1b.svg)](https://arxiv.org/abs/2605.10815)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.10815-b31b1b.svg)](https://arxiv.org/abs/2605.10815)
 
-*Official implementation of* **"Probing Cross-modal Information Hubs in Audio-Visual LLMs"** *(ICML 2026)*
+**Jihoo Jung**&nbsp;&nbsp;·&nbsp;&nbsp;**Chaeyoung Jung**&nbsp;&nbsp;·&nbsp;&nbsp;**Ji-Hoon Kim**&nbsp;&nbsp;·&nbsp;&nbsp;**Joon Son Chung**
+
+*ICML 2026*
 
 </div>
 
